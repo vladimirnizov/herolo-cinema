@@ -21,11 +21,6 @@ export default {
 
   ],
 
-  /*
-  ** To call .env varibale use process.env.VARIBALE_NAME
-  */
-  env: env.parsed,
-
   plugins: [
     '~/plugins/filters',
   ],
