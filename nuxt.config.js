@@ -1,3 +1,5 @@
+const env = require('dotenv').config();
+
 export default {
   mode: 'universal',
 
@@ -21,6 +23,11 @@ export default {
 
   ],
 
+  /*
+  ** To call .env varibale use process.env.VARIBALE_NAME
+  */
+  env: env.parsed,
+
   plugins: [
     '~/plugins/filters',
   ],
@@ -35,7 +42,7 @@ export default {
 
   
   axios: {
-    baseURL: 'http://www.omdbapi.com',
+    baseURL: process.env.API_BASE_URL,
   },
 
   build: {
