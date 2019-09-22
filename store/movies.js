@@ -9,7 +9,7 @@ export default
         get_movie: async ( {commit, state}, context ) => {
             const id = context.query.id ;
             if(! state.movie.imdbID || state.movie.imdbID !== id) {
-                const { data } = await context.$axios.get(`?i=${id}${process.env.API_KEY}`);            
+                const { data } = await context.$axios.get(`?i=${id}&apikey=388734b8`);            
                 commit('set_movie', data);
             }
         }

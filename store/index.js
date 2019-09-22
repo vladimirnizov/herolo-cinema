@@ -7,7 +7,7 @@ export default
         },
         
         async storeDispatchFunc({ commit }) {
-            const { data } = await this.$axios.get(`?s=work${process.env.API_KEY}`);
+            const { data } = await this.$axios.get(`?s=work&apikey=388734b8`);
             commit('movies/set_movies', data);
         },
     }

@@ -42,7 +42,7 @@ export default {
 
   
   axios: {
-    baseURL: process.env.API_BASE_URL,
+    baseURL: 'http://www.omdbapi.com',
   },
 
   build: {
