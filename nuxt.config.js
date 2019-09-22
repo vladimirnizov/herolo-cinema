@@ -1,5 +1,3 @@
-const env = require('dotenv').config();
-
 export default {
   mode: 'universal',
 
