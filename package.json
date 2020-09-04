@@ -16,7 +16,7 @@
     "bootstrap-vue": "^2.0.1",
     "dotenv": "^8.1.0",
     "jquery": "^3.4.1",
-    "node-sass": "^4.12.0",
+    "node-sass": "^4.13.1",
     "nuxt": "^2.0.0",
     "propper": "^1.0.3",
     "sass-loader": "^8.0.0",
